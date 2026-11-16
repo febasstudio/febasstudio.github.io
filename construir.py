@@ -122,15 +122,15 @@ pagina(
 <p>La copia se guarda hasta que la borres. Puedes cerrar sesión cuando quieras y borrar la copia y la cuenta desde la app (ver <a href="borrar-cuenta.html">cómo borrar tu cuenta</a>).</p>
 
 <h2>4. Ranking del modo sin fin (opcional)</h2>
-<p>Si entras en el ranking (botón «Ranking» del modo sin fin), se crea una cuenta anónima de Google Firebase, sin nombre ni correo, y guardamos en la nube, a la vista de los demás jugadores:</p>
+<p>Si entras en el ranking (botón «Ranking» del modo sin fin), guardamos en Google Firebase, a la vista de los demás jugadores:</p>
 <ul>
-<li>un identificador anónimo de la cuenta;</li>
+<li>el identificador de tu cuenta: el de una cuenta anónima de Google Firebase (sin nombre ni correo) que se crea al entrar o, si has entrado con Google, el de tu cuenta de Google (entonces no se crea ninguna anónima). Ese identificador se ve en los datos del ranking, pero no es un nombre ni un correo;</li>
 <li>un apodo inventado por la app (por ejemplo, «Panda Veloz 482»; no se puede escribir texto propio);</li>
 <li>la especie de la mascota con la que jugaste;</li>
 <li>tus mejores aciertos por nivel, de la semana y de siempre, y la fecha en que los conseguiste.</li>
 </ul>
-<p>Mientras juegas una partida guardamos también en qué nivel y cuándo empezó, para comprobar que el resultado es posible; se borra al terminarla. Lo usamos solo para enseñar el ranking. La base legal es que tú lo pides al entrar (ejecución del servicio). Se guarda en Google Firebase, como la copia del punto 3. Si después entras con tu cuenta de Google, el ranking pasa a esa cuenta.</p>
-<p>Puedes salir cuando quieras en Ajustes, «Ranking», «Salir del ranking»: se borran tus puestos en todos los niveles y la cuenta anónima. «Borrar mi copia» también los borra.</p>
+<p>Mientras juegas una partida guardamos también su nivel y la hora a la que empezó, para comprobar que el resultado es posible; se borran al terminarla. Lo usamos solo para enseñar el ranking. La base legal es que tú lo pides al entrar (ejecución del servicio). Se guarda en Google Firebase, como la copia del punto 3. Si después entras con tu cuenta de Google, el ranking pasa a esa cuenta.</p>
+<p>Puedes salir cuando quieras en Ajustes, «Ranking», «Salir del ranking»: se borran tus puestos en todos los niveles y la cuenta anónima; si has entrado con Google, se borran los puestos de esa cuenta. Si cierras la sesión de Google, sales del ranking en ese móvil, pero tus puestos se quedan con tu cuenta de Google, como la copia: se borran con «Salir del ranking» mientras estés dentro con ella, o con «Borrar mi copia».</p>
 
 <h2>5. Micrófono</h2>
 <p>Solo se usa mientras pulsas el botón del micrófono en los ejercicios de hablar. Reconoce tu voz el sistema de tu móvil (Google o Apple), en el propio móvil cuando se puede. Englimals no guarda ni envía tu voz.</p>
@@ -190,7 +190,7 @@ pagina(
 <li>Confirma con «Borrar».</li>
 </ol>
 <p>Se borran tu copia en la nube y tu cuenta de Englimals en la nube. La partida de tu móvil no se toca.</p>
-<p>Para el ranking: en Ajustes, «Ranking», pulsa «Salir del ranking» y confirma. Se borran tus puestos en todos los niveles y, si no entraste con Google, la cuenta anónima.</p>
+<p>Para el ranking: en Ajustes, «Ranking», pulsa «Salir del ranking» y confirma. Se borran tus puestos en todos los niveles y, si no entraste con Google, la cuenta anónima. Si entraste con Google, se borran los puestos de esa cuenta: hazlo con la sesión abierta (si la cerraste, vuelve a entrar con ella) o usa «Borrar mi copia», que también los borra.</p>
 <h2>Sin la app</h2>
 <p>Escríbenos a {correo} desde el correo de la cuenta de Google con la que entraste, con el asunto «Borrar mi cuenta de Englimals». La borraremos en 30 días como máximo y te avisaremos.</p>
 <h2>Qué se borra</h2>
@@ -252,15 +252,15 @@ pagina(
 <p>The backup is kept until you delete it. You can sign out at any time and delete the backup and the account from the app (see <a href="delete-account.html">how to delete your account</a>).</p>
 
 <h2>4. Endless mode leaderboard (optional)</h2>
-<p>If you join the leaderboard (the “Leaderboard” button in endless mode), an anonymous Google Firebase account is created, with no name or email, and we store in the cloud, visible to other players:</p>
+<p>If you join the leaderboard (the “Leaderboard” button in endless mode), we store in Google Firebase, visible to other players:</p>
 <ul>
-<li>an anonymous account ID;</li>
+<li>your account ID: that of an anonymous Google Firebase account (no name or email) created when you join or, if you have signed in with Google, that of your Google account (then no anonymous account is created). That ID is visible in the leaderboard data, but it is not a name or an email;</li>
 <li>a nickname made up by the app (for example, “Swift Panda 482”; you can't type your own text);</li>
 <li>the species of the pet you played with;</li>
 <li>your best scores per level, for the week and all time, and the date you got them.</li>
 </ul>
-<p>While you play a game we also store its level and when it started, to check that the result is possible; it is deleted when the game ends. We only use this to show the leaderboard. The legal basis is that you ask for it when joining (performance of the service). It is stored in Google Firebase, like the backup in point 3. If you later sign in with your Google account, the leaderboard moves to that account.</p>
-<p>You can leave at any time in Settings, “Leaderboard”, “Leave the leaderboard”: your positions in all levels and the anonymous account are deleted. “Delete my backup” also deletes them.</p>
+<p>While you play a game we also store its level and the time it started, to check that the result is possible; they are deleted when the game ends. We only use this to show the leaderboard. The legal basis is that you ask for it when joining (performance of the service). It is stored in Google Firebase, like the backup in point 3. If you later sign in with your Google account, the leaderboard moves to that account.</p>
+<p>You can leave at any time in Settings, “Leaderboard”, “Leave the leaderboard”: your positions in all levels and the anonymous account are deleted; if you have signed in with Google, that account's positions are deleted. If you sign out of Google, you leave the leaderboard on that phone, but your positions stay with your Google account, like the backup: they are deleted with “Leave the leaderboard” while you are signed in with it, or with “Delete my backup”.</p>
 
 <h2>5. Microphone</h2>
 <p>It is only used while you press the microphone button in the speaking exercises. Your phone's system (Google or Apple) recognises your speech, on the phone itself whenever possible. Englimals never stores or sends your voice.</p>
@@ -322,7 +322,7 @@ pagina(
 <li>Confirm with “Delete”.</li>
 </ol>
 <p>Your cloud backup and your Englimals cloud account are deleted. The game on your phone is not touched.</p>
-<p>For the leaderboard: in Settings, “Leaderboard”, tap “Leave the leaderboard” and confirm. Your positions in all levels are deleted and, if you didn't sign in with Google, the anonymous account too.</p>
+<p>For the leaderboard: in Settings, “Leaderboard”, tap “Leave the leaderboard” and confirm. Your positions in all levels are deleted and, if you didn't sign in with Google, the anonymous account too. If you signed in with Google, that account's positions are deleted: do it while signed in (if you signed out, sign in with it again) or use “Delete my backup”, which also deletes them.</p>
 <h2>Without the app</h2>
 <p>Write to {correo} from the email of the Google account you signed in with, with the subject “Delete my Englimals account”. We will delete it within 30 days and let you know.</p>
 <h2>What is deleted</h2>
