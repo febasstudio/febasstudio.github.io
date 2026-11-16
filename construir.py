@@ -6,7 +6,7 @@ El correo y la fecha se cambian aquí arriba y se vuelven a generar las páginas
 """
 from pathlib import Path
 
-CORREO = "febasstudio@gmail.com"  # Provisional: confirmar con Federico.
+CORREO = "febasstudio@gmail.com"  # Oficial (decidido el 2026-11-16).
 FECHA_ES = "16 de noviembre de 2026"
 FECHA_EN = "16 November 2026"
 ANIO = 2026
