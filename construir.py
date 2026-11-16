@@ -110,7 +110,7 @@ pagina(
 <p>Febas Studio, el estudio que publica Englimals. Contacto: {correo}.</p>
 
 <h2>2. Datos que se quedan en tu móvil</h2>
-<p>Tus mascotas, monedas, objetos, progreso en las lecciones, fallos para repasar y tus ajustes se guardan solo en tu móvil. No salen de él salvo que actives la copia en la nube. Si borras la app, se borran.</p>
+<p>Tus mascotas, monedas, objetos, progreso en las lecciones, fallos para repasar y tus ajustes se guardan solo en tu móvil. No salen de él salvo que actives la copia en la nube o el ranking. Si borras la app, se borran.</p>
 
 <h2>3. Copia en la nube (opcional)</h2>
 <p>Si entras con tu cuenta de Google en Ajustes, «Copia en la nube», guardamos:</p>
@@ -121,25 +121,36 @@ pagina(
 <p>Lo usamos solo para guardar y devolverte tu partida. La base legal es que tú nos lo pides al activar la copia (ejecución del servicio). La copia se guarda en Google Firebase (Google Ireland Ltd.), en servidores de la Unión Europea; Google actúa como encargado del tratamiento y puede tratar datos de la cuenta fuera de la UE con las garantías previstas por la ley (Marco de Privacidad de Datos UE-EE. UU. y cláusulas contractuales tipo). Cada cuenta solo puede leer su propia copia y la conexión va cifrada.</p>
 <p>La copia se guarda hasta que la borres. Puedes cerrar sesión cuando quieras y borrar la copia y la cuenta desde la app (ver <a href="borrar-cuenta.html">cómo borrar tu cuenta</a>).</p>
 
-<h2>4. Micrófono</h2>
+<h2>4. Ranking del modo sin fin (opcional)</h2>
+<p>Si entras en el ranking (botón «Ranking» del modo sin fin), se crea una cuenta anónima de Google Firebase, sin nombre ni correo, y guardamos en la nube, a la vista de los demás jugadores:</p>
+<ul>
+<li>un identificador anónimo de la cuenta;</li>
+<li>un apodo inventado por la app (por ejemplo, «Panda Veloz 482»; no se puede escribir texto propio);</li>
+<li>la especie de la mascota con la que jugaste;</li>
+<li>tus mejores aciertos por nivel, de la semana y de siempre, y la fecha en que los conseguiste.</li>
+</ul>
+<p>Mientras juegas una partida guardamos también en qué nivel y cuándo empezó, para comprobar que el resultado es posible; se borra al terminarla. Lo usamos solo para enseñar el ranking. La base legal es que tú lo pides al entrar (ejecución del servicio). Se guarda en Google Firebase, como la copia del punto 3. Si después entras con tu cuenta de Google, el ranking pasa a esa cuenta.</p>
+<p>Puedes salir cuando quieras en Ajustes, «Ranking», «Salir del ranking»: se borran tus puestos en todos los niveles y la cuenta anónima. «Borrar mi copia» también los borra.</p>
+
+<h2>5. Micrófono</h2>
 <p>Solo se usa mientras pulsas el botón del micrófono en los ejercicios de hablar. Reconoce tu voz el sistema de tu móvil (Google o Apple), en el propio móvil cuando se puede. Englimals no guarda ni envía tu voz.</p>
 
-<h2>5. Avisos</h2>
+<h2>6. Avisos</h2>
 <p>Los recordatorios de tus mascotas los programa el propio móvil. No enviamos nada a ningún servidor para ellos. Puedes apagarlos en Ajustes.</p>
 
-<h2>6. Anuncios y compras</h2>
+<h2>7. Anuncios y compras</h2>
 <p>Ahora la app no tiene anuncios ni compras. Si se añaden, los gestionarán Google AdMob y la tienda de tu móvil; antes actualizaremos esta política y te pediremos permiso cuando la ley lo exija.</p>
 
-<h2>7. Lo que no hacemos</h2>
+<h2>8. Lo que no hacemos</h2>
 <p>No vendemos tus datos, no los compartimos con nadie para publicidad y no los usamos para nada más que hacer funcionar la app.</p>
 
-<h2>8. Menores</h2>
+<h2>9. Menores</h2>
 <p>Englimals no está pensada para menores de 13 años. Si sabemos que un menor de esa edad nos ha dado datos, los borraremos.</p>
 
-<h2>9. Tus derechos</h2>
+<h2>10. Tus derechos</h2>
 <p>Puedes pedirnos ver, corregir, borrar, limitar u oponerte al uso de tus datos, y recibir una copia de ellos, escribiendo a {correo}. Te responderemos en un mes como máximo. Si no estás de acuerdo con nuestra respuesta, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
 
-<h2>10. Cambios</h2>
+<h2>11. Cambios</h2>
 <p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es importante, te avisaremos en la app.</p>
 </div>""",
     nivel=1,
@@ -171,7 +182,7 @@ pagina(
     "Borrar tu cuenta · Englimals",
     "Borrar tu cuenta y tus datos",
     f"""<div class="tarjeta">
-<p>Englimals solo guarda datos fuera de tu móvil si activaste la copia en la nube. Así puedes borrarlos:</p>
+<p>Englimals solo guarda datos fuera de tu móvil si activaste la copia en la nube o entraste en el ranking. Así puedes borrarlos:</p>
 <h2>Desde la app (al momento)</h2>
 <ol>
 <li>Abre Englimals y entra en Ajustes.</li>
@@ -179,10 +190,11 @@ pagina(
 <li>Confirma con «Borrar».</li>
 </ol>
 <p>Se borran tu copia en la nube y tu cuenta de Englimals en la nube. La partida de tu móvil no se toca.</p>
+<p>Para el ranking: en Ajustes, «Ranking», pulsa «Salir del ranking» y confirma. Se borran tus puestos en todos los niveles y, si no entraste con Google, la cuenta anónima.</p>
 <h2>Sin la app</h2>
 <p>Escríbenos a {correo} desde el correo de la cuenta de Google con la que entraste, con el asunto «Borrar mi cuenta de Englimals». La borraremos en 30 días como máximo y te avisaremos.</p>
 <h2>Qué se borra</h2>
-<p>La copia de tu partida, su resumen, el identificador de tu cuenta y tu correo. No guardamos nada después.</p>
+<p>La copia de tu partida, su resumen, el identificador de tu cuenta y tu correo. No guardamos nada después. Si estabas en el ranking, también tus puestos, tu apodo y la especie de tu mascota.</p>
 <h2>Los datos de tu móvil</h2>
 <p>Se borran al desinstalar la app.</p>
 </div>""",
@@ -228,7 +240,7 @@ pagina(
 <p>Febas Studio, the studio that publishes Englimals. Contact: {correo}.</p>
 
 <h2>2. Data that stays on your phone</h2>
-<p>Your pets, coins, items, lesson progress, mistakes to review and settings are stored only on your phone. They never leave it unless you turn on the cloud backup. If you delete the app, they are deleted.</p>
+<p>Your pets, coins, items, lesson progress, mistakes to review and settings are stored only on your phone. They never leave it unless you turn on the cloud backup or join the leaderboard. If you delete the app, they are deleted.</p>
 
 <h2>3. Cloud backup (optional)</h2>
 <p>If you sign in with your Google account in Settings, “Cloud backup”, we store:</p>
@@ -239,25 +251,36 @@ pagina(
 <p>We only use it to store your game and give it back to you. The legal basis is that you ask us to when you turn the backup on (performance of the service). The backup is stored in Google Firebase (Google Ireland Ltd.), on servers in the European Union; Google acts as our processor and may process account data outside the EU with the safeguards required by law (EU-US Data Privacy Framework and standard contractual clauses). Each account can only read its own backup and the connection is encrypted.</p>
 <p>The backup is kept until you delete it. You can sign out at any time and delete the backup and the account from the app (see <a href="delete-account.html">how to delete your account</a>).</p>
 
-<h2>4. Microphone</h2>
+<h2>4. Endless mode leaderboard (optional)</h2>
+<p>If you join the leaderboard (the “Leaderboard” button in endless mode), an anonymous Google Firebase account is created, with no name or email, and we store in the cloud, visible to other players:</p>
+<ul>
+<li>an anonymous account ID;</li>
+<li>a nickname made up by the app (for example, “Swift Panda 482”; you can't type your own text);</li>
+<li>the species of the pet you played with;</li>
+<li>your best scores per level, for the week and all time, and the date you got them.</li>
+</ul>
+<p>While you play a game we also store its level and when it started, to check that the result is possible; it is deleted when the game ends. We only use this to show the leaderboard. The legal basis is that you ask for it when joining (performance of the service). It is stored in Google Firebase, like the backup in point 3. If you later sign in with your Google account, the leaderboard moves to that account.</p>
+<p>You can leave at any time in Settings, “Leaderboard”, “Leave the leaderboard”: your positions in all levels and the anonymous account are deleted. “Delete my backup” also deletes them.</p>
+
+<h2>5. Microphone</h2>
 <p>It is only used while you press the microphone button in the speaking exercises. Your phone's system (Google or Apple) recognises your speech, on the phone itself whenever possible. Englimals never stores or sends your voice.</p>
 
-<h2>5. Reminders</h2>
+<h2>6. Reminders</h2>
 <p>Your pets' reminders are scheduled by the phone itself. We don't send anything to any server for them. You can turn them off in Settings.</p>
 
-<h2>6. Ads and purchases</h2>
+<h2>7. Ads and purchases</h2>
 <p>The app has no ads or purchases right now. If they are added, Google AdMob and your phone's store will handle them; we will update this policy first and ask for your consent when the law requires it.</p>
 
-<h2>7. What we don't do</h2>
+<h2>8. What we don't do</h2>
 <p>We don't sell your data, share it with anyone for advertising, or use it for anything other than making the app work.</p>
 
-<h2>8. Children</h2>
+<h2>9. Children</h2>
 <p>Englimals is not meant for children under 13. If we learn that a child under that age has given us data, we will delete it.</p>
 
-<h2>9. Your rights</h2>
+<h2>10. Your rights</h2>
 <p>You can ask us to access, correct, delete, restrict or object to the use of your data, and to receive a copy of it, by writing to {correo}. We will reply within one month. If you disagree with our answer, you can complain to the Spanish Data Protection Agency (<a href="https://www.aepd.es">www.aepd.es</a>) or your local authority.</p>
 
-<h2>10. Changes</h2>
+<h2>11. Changes</h2>
 <p>If we change this policy, we will update the date above and, if the change is important, let you know in the app.</p>
 </div>""",
     idioma="en",
@@ -291,7 +314,7 @@ pagina(
     "Delete your account · Englimals",
     "Delete your account and data",
     f"""<div class="tarjeta">
-<p>Englimals only stores data outside your phone if you turned on the cloud backup. This is how to delete it:</p>
+<p>Englimals only stores data outside your phone if you turned on the cloud backup or joined the leaderboard. This is how to delete it:</p>
 <h2>From the app (immediately)</h2>
 <ol>
 <li>Open Englimals and go to Settings.</li>
@@ -299,10 +322,11 @@ pagina(
 <li>Confirm with “Delete”.</li>
 </ol>
 <p>Your cloud backup and your Englimals cloud account are deleted. The game on your phone is not touched.</p>
+<p>For the leaderboard: in Settings, “Leaderboard”, tap “Leave the leaderboard” and confirm. Your positions in all levels are deleted and, if you didn't sign in with Google, the anonymous account too.</p>
 <h2>Without the app</h2>
 <p>Write to {correo} from the email of the Google account you signed in with, with the subject “Delete my Englimals account”. We will delete it within 30 days and let you know.</p>
 <h2>What is deleted</h2>
-<p>Your game backup, its summary, your account ID and your email. We keep nothing afterwards.</p>
+<p>Your game backup, its summary, your account ID and your email. We keep nothing afterwards. If you were on the leaderboard, also your positions, your nickname and your pet's species.</p>
 <h2>Data on your phone</h2>
 <p>It is deleted when you uninstall the app.</p>
 </div>""",
