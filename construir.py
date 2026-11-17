@@ -7,8 +7,8 @@ El correo y la fecha se cambian aquí arriba y se vuelven a generar las páginas
 from pathlib import Path
 
 CORREO = "febasstudio@gmail.com"  # Oficial (decidido el 2026-11-16).
-FECHA_ES = "16 de noviembre de 2026"
-FECHA_EN = "16 November 2026"
+FECHA_ES = "17 de noviembre de 2026"
+FECHA_EN = "17 November 2026"
 ANIO = 2026
 RAIZ = Path(__file__).parent
 
@@ -149,10 +149,11 @@ pagina(
 <p>Los recordatorios de tus mascotas los programa el propio móvil. No enviamos nada a ningún servidor para ellos. Puedes apagarlos en Ajustes.</p>
 
 <h2>8. Anuncios y compras</h2>
-<p>Ahora la app no tiene anuncios ni compras. Si se añaden, los gestionarán Google AdMob y la tienda de tu móvil; antes actualizaremos esta política y te pediremos permiso cuando la ley lo exija.</p>
+<p><strong>Anuncios (opcionales).</strong> Solo salen si eliges ver uno a cambio de un premio (una comida o una tirada de la ruleta). No hay anuncios que salgan solos. Los sirve Google AdMob (Google Ireland Limited), que recibe datos del dispositivo (como el modelo, el sistema, el idioma y la dirección IP) y, en Android, el identificador de publicidad de tu móvil, para enseñarlos, medirlos y evitar fraudes. En la Unión Europea, el Reino Unido y Suiza te pedimos antes permiso con el formulario de Google (base legal: tu consentimiento); puedes cambiarlo o retirarlo cuando quieras en Ajustes, «Anuncios», «Privacidad de los anuncios». En iPhone no te pedimos permiso de seguimiento: no te rastreamos entre apps y AdMob no recibe el identificador de publicidad del iPhone. En Android puedes borrar o limitar el identificador de publicidad en los ajustes del móvil. Más información: <a href="https://policies.google.com/technologies/ads">cómo usa Google los datos en los anuncios</a>.</p>
+<p><strong>Compras (opcionales).</strong> Puedes comprar packs de monedas. Para no perderlas, hay que entrar antes con Google (punto 3). La compra la hace la tienda de tu móvil (Google Play o App Store) con sus condiciones. RevenueCat (RevenueCat, Inc., en EE. UU., con las garantías previstas por la ley) guarda el historial de compras (producto, fecha e identificador de la compra) con el identificador de tu cuenta de Google en la app (el mismo de la copia en la nube), para entregarte las monedas sin perderlas ni repetirlas (base legal: ejecución del servicio). Tu partida apunta las compras ya entregadas (viaja en la copia) y el propio móvil apunta las compras que se han empezado en él: si una compra se queda a medias (por ejemplo, un pago pendiente), se entrega después solo en el móvil donde se hizo. Nosotros no vemos tus datos de pago. Las monedas nunca compran lecciones y los tickets de la ruleta solo se pagan con monedas ganadas jugando.</p>
 
 <h2>9. Lo que no hacemos</h2>
-<p>No vendemos tus datos, no los compartimos con nadie para publicidad y no los usamos para nada más que hacer funcionar la app.</p>
+<p>No vendemos tus datos y no los usamos para nada más que hacer funcionar la app. Fuera de los anuncios que eliges ver (punto 8), no compartimos nada con nadie para publicidad.</p>
 
 <h2>10. Menores</h2>
 <p>Englimals no está pensada para menores de 13 años. Si sabemos que un menor de esa edad nos ha dado datos, los borraremos.</p>
@@ -177,7 +178,7 @@ pagina(
 <li>Englimals se ofrece tal cual, para uso personal. Hacemos lo posible para que el contenido sea correcto, pero puede tener errores.</li>
 <li>Las lecciones son siempre gratis.</li>
 <li>Las monedas, los tickets y los objetos del juego no tienen valor fuera de él ni se pueden cambiar por dinero.</li>
-<li>Si en el futuro hay compras, se regirán por las condiciones de la tienda de tu móvil.</li>
+<li>Las compras de monedas se rigen por las condiciones de la tienda de tu móvil. Para comprar hay que entrar con Google. Las monedas compradas nunca compran lecciones ni tickets de la ruleta. Si una compra se queda pendiente, se entrega en el móvil donde se hizo.</li>
 <li>Podemos actualizar la app, su contenido y estos términos. Si el cambio es importante, te avisaremos en la app.</li>
 <li>Las mascotas, el arte, los textos y el código de Englimals son de sus autores. Los recursos de otros están en la app, en Ajustes, «Créditos y licencias».</li>
 <li>Para cualquier duda: {correo}.</li>
@@ -202,6 +203,7 @@ pagina(
 <p>Se borran tu copia en la nube y tu cuenta de Englimals en la nube. La partida de tu móvil no se toca.</p>
 <p>Para el ranking: en Ajustes, «Ranking», pulsa «Salir del ranking» y confirma. Se borran tus puestos en todos los niveles y, si no entraste con Google, la cuenta anónima. Si entraste con Google, se borran los puestos de esa cuenta: hazlo con la sesión abierta (si la cerraste, vuelve a entrar con ella) o usa «Borrar mi copia», que también los borra.</p>
 <p>Para los amigos: salir del ranking o «Borrar mi copia» borran también tu código de amigo, tu perfil, tus solicitudes, tus amistades (en las dos listas) y tus ánimos.</p>
+<p>Para las compras: el historial de compras que guarda RevenueCat no se borra desde la app (sirve para no perder lo pagado). Si quieres borrarlo, escríbenos como se explica abajo. La tienda de tu móvil guarda sus propios recibos según sus condiciones.</p>
 <h2>Sin la app</h2>
 <p>Escríbenos a {correo} desde el correo de la cuenta de Google con la que entraste, con el asunto «Borrar mi cuenta de Englimals». La borraremos en 30 días como máximo y te avisaremos.</p>
 <h2>Qué se borra</h2>
@@ -290,10 +292,11 @@ pagina(
 <p>Your pets' reminders are scheduled by the phone itself. We don't send anything to any server for them. You can turn them off in Settings.</p>
 
 <h2>8. Ads and purchases</h2>
-<p>The app has no ads or purchases right now. If they are added, Google AdMob and your phone's store will handle them; we will update this policy first and ask for your consent when the law requires it.</p>
+<p><strong>Ads (optional).</strong> They only show if you choose to watch one in exchange for a reward (a food or a wheel spin). No ads show up on their own. They are served by Google AdMob (Google Ireland Limited), which receives device data (such as the model, the system, the language and the IP address) and, on Android, your phone's advertising ID, to show them, measure them and prevent fraud. In the European Union, the United Kingdom and Switzerland we ask for your consent first with Google's form (legal basis: your consent); you can change or withdraw it at any time in Settings, “Ads”, “Ad privacy”. On iPhone we don't ask for tracking permission: we don't track you across apps and AdMob doesn't receive the iPhone's advertising ID. On Android you can reset or limit the advertising ID in your phone's settings. More information: <a href="https://policies.google.com/technologies/ads">how Google uses data in ads</a>.</p>
+<p><strong>Purchases (optional).</strong> You can buy coin packs. So you don't lose them, you need to sign in with Google first (point 3). The purchase is made by your phone's store (Google Play or App Store) under its terms. RevenueCat (RevenueCat, Inc., in the USA, with the safeguards required by law) keeps the purchase history (product, date and purchase ID) with the ID of your Google account in the app (the same one as the cloud backup), so your coins are delivered without losing or repeating them (legal basis: performance of the service). Your game records the purchases already delivered (it travels in the backup) and the phone itself records the purchases started on it: if a purchase is left unfinished (for example, a pending payment), it is delivered later only on the phone where it was made. We never see your payment details. Coins never buy lessons and wheel tickets can only be paid with coins earned by playing.</p>
 
 <h2>9. What we don't do</h2>
-<p>We don't sell your data, share it with anyone for advertising, or use it for anything other than making the app work.</p>
+<p>We don't sell your data or use it for anything other than making the app work. Apart from the ads you choose to watch (point 8), we don't share anything with anyone for advertising.</p>
 
 <h2>10. Children</h2>
 <p>Englimals is not meant for children under 13. If we learn that a child under that age has given us data, we will delete it.</p>
@@ -319,7 +322,7 @@ pagina(
 <li>Englimals is provided as is, for personal use. We do our best to keep the content correct, but it may contain mistakes.</li>
 <li>The lessons are always free.</li>
 <li>Coins, tickets and in-game items have no value outside the game and cannot be exchanged for money.</li>
-<li>If there are purchases in the future, they will be governed by the terms of your phone's store.</li>
+<li>Coin purchases are governed by the terms of your phone's store. You need to sign in with Google to buy. Bought coins never buy lessons or wheel tickets. If a purchase is left pending, it is delivered on the phone where it was made.</li>
 <li>We may update the app, its content and these terms. If a change is important, we will let you know in the app.</li>
 <li>The pets, art, texts and code of Englimals belong to their authors. Third-party resources are listed in the app, in Settings, “Credits and licences”.</li>
 <li>For any question: {correo}.</li>
@@ -345,6 +348,7 @@ pagina(
 <p>Your cloud backup and your Englimals cloud account are deleted. The game on your phone is not touched.</p>
 <p>For the leaderboard: in Settings, “Leaderboard”, tap “Leave the leaderboard” and confirm. Your positions in all levels are deleted and, if you didn't sign in with Google, the anonymous account too. If you signed in with Google, that account's positions are deleted: do it while signed in (if you signed out, sign in with it again) or use “Delete my backup”, which also deletes them.</p>
 <p>For friends: leaving the leaderboard or “Delete my backup” also deletes your friend code, your profile, your requests, your friendships (on both lists) and your encouragements.</p>
+<p>For purchases: the purchase history kept by RevenueCat is not deleted from the app (it makes sure you don't lose what you paid for). If you want it deleted, write to us as explained below. Your phone's store keeps its own receipts under its terms.</p>
 <h2>Without the app</h2>
 <p>Write to {correo} from the email of the Google account you signed in with, with the subject “Delete my Englimals account”. We will delete it within 30 days and let you know.</p>
 <h2>What is deleted</h2>
