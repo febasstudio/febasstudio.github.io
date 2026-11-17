@@ -132,25 +132,35 @@ pagina(
 <p>Mientras juegas una partida guardamos también su nivel y la hora a la que empezó, para comprobar que el resultado es posible; se borran al terminarla. Lo usamos solo para enseñar el ranking. La base legal es que tú lo pides al entrar (ejecución del servicio). Se guarda en Google Firebase, como la copia del punto 3. Si después entras con tu cuenta de Google, el ranking pasa a esa cuenta.</p>
 <p>Puedes salir cuando quieras en Ajustes, «Ranking», «Salir del ranking»: se borran tus puestos en todos los niveles y la cuenta anónima; si has entrado con Google, se borran los puestos de esa cuenta. Si cierras la sesión de Google, sales del ranking en ese móvil, pero tus puestos se quedan con tu cuenta de Google, como la copia: se borran con «Salir del ranking» mientras estés dentro con ella, o con «Borrar mi copia».</p>
 
-<h2>5. Micrófono</h2>
+<h2>5. Amigos (opcional)</h2>
+<p>Si estás en el ranking, puedes añadir amigos con un código de 6 caracteres que se crea al abrir «Amigos». Guardamos en Google Firebase, con el identificador de tu cuenta:</p>
+<ul>
+<li>tu código de amigo (quien lo tenga puede mandarte una solicitud);</li>
+<li>tu perfil, que solo ven los amigos que has aceptado: tu apodo, la especie y la etapa de tu mascota principal, tu nivel de inglés, tu racha, tus lecciones de esta semana, tu número de logros y cuándo se actualizó;</li>
+<li>las solicitudes de amistad, con tu apodo y tu mascota (las ve quien las recibe);</li>
+<li>tu lista de amigos;</li>
+<li>los ánimos que mandas: uno de 6 mensajes fijos de la app, con su fecha.</li>
+</ul>
+<p>No hay texto libre ni nombres. Tus récords del modo sin fin ya son públicos en el ranking (punto 4). La base legal es que tú lo pides al usar «Amigos» (ejecución del servicio). Al salir del ranking o con «Borrar mi copia» se borran tu código, tu perfil, tus solicitudes, tus amistades (en las dos listas) y tus ánimos. Si cierras la sesión de Google, tus amigos se quedan con esa cuenta, como el ranking.</p>
+<h2>6. Micrófono</h2>
 <p>Solo se usa mientras pulsas el botón del micrófono en los ejercicios de hablar. Reconoce tu voz el sistema de tu móvil (Google o Apple), en el propio móvil cuando se puede. Englimals no guarda ni envía tu voz.</p>
 
-<h2>6. Avisos</h2>
+<h2>7. Avisos</h2>
 <p>Los recordatorios de tus mascotas los programa el propio móvil. No enviamos nada a ningún servidor para ellos. Puedes apagarlos en Ajustes.</p>
 
-<h2>7. Anuncios y compras</h2>
+<h2>8. Anuncios y compras</h2>
 <p>Ahora la app no tiene anuncios ni compras. Si se añaden, los gestionarán Google AdMob y la tienda de tu móvil; antes actualizaremos esta política y te pediremos permiso cuando la ley lo exija.</p>
 
-<h2>8. Lo que no hacemos</h2>
+<h2>9. Lo que no hacemos</h2>
 <p>No vendemos tus datos, no los compartimos con nadie para publicidad y no los usamos para nada más que hacer funcionar la app.</p>
 
-<h2>9. Menores</h2>
+<h2>10. Menores</h2>
 <p>Englimals no está pensada para menores de 13 años. Si sabemos que un menor de esa edad nos ha dado datos, los borraremos.</p>
 
-<h2>10. Tus derechos</h2>
+<h2>11. Tus derechos</h2>
 <p>Puedes pedirnos ver, corregir, borrar, limitar u oponerte al uso de tus datos, y recibir una copia de ellos, escribiendo a {correo}. Te responderemos en un mes como máximo. Si no estás de acuerdo con nuestra respuesta, puedes reclamar ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
 
-<h2>11. Cambios</h2>
+<h2>12. Cambios</h2>
 <p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es importante, te avisaremos en la app.</p>
 </div>""",
     nivel=1,
@@ -191,10 +201,11 @@ pagina(
 </ol>
 <p>Se borran tu copia en la nube y tu cuenta de Englimals en la nube. La partida de tu móvil no se toca.</p>
 <p>Para el ranking: en Ajustes, «Ranking», pulsa «Salir del ranking» y confirma. Se borran tus puestos en todos los niveles y, si no entraste con Google, la cuenta anónima. Si entraste con Google, se borran los puestos de esa cuenta: hazlo con la sesión abierta (si la cerraste, vuelve a entrar con ella) o usa «Borrar mi copia», que también los borra.</p>
+<p>Para los amigos: salir del ranking o «Borrar mi copia» borran también tu código de amigo, tu perfil, tus solicitudes, tus amistades (en las dos listas) y tus ánimos.</p>
 <h2>Sin la app</h2>
 <p>Escríbenos a {correo} desde el correo de la cuenta de Google con la que entraste, con el asunto «Borrar mi cuenta de Englimals». La borraremos en 30 días como máximo y te avisaremos.</p>
 <h2>Qué se borra</h2>
-<p>La copia de tu partida, su resumen, el identificador de tu cuenta y tu correo. No guardamos nada después. Si estabas en el ranking, también tus puestos, tu apodo y la especie de tu mascota.</p>
+<p>La copia de tu partida, su resumen, el identificador de tu cuenta y tu correo. No guardamos nada después. Si estabas en el ranking, también tus puestos, tu apodo y la especie de tu mascota. Si tenías amigos, también tu código, tu perfil, tus solicitudes, tus amistades y tus ánimos.</p>
 <h2>Los datos de tu móvil</h2>
 <p>Se borran al desinstalar la app.</p>
 </div>""",
@@ -262,25 +273,35 @@ pagina(
 <p>While you play a game we also store its level and the time it started, to check that the result is possible; they are deleted when the game ends. We only use this to show the leaderboard. The legal basis is that you ask for it when joining (performance of the service). It is stored in Google Firebase, like the backup in point 3. If you later sign in with your Google account, the leaderboard moves to that account.</p>
 <p>You can leave at any time in Settings, “Leaderboard”, “Leave the leaderboard”: your positions in all levels and the anonymous account are deleted; if you have signed in with Google, that account's positions are deleted. If you sign out of Google, you leave the leaderboard on that phone, but your positions stay with your Google account, like the backup: they are deleted with “Leave the leaderboard” while you are signed in with it, or with “Delete my backup”.</p>
 
-<h2>5. Microphone</h2>
+<h2>5. Friends (optional)</h2>
+<p>If you're on the leaderboard, you can add friends with a 6-character code that is created when you open “Friends”. We store in Google Firebase, under your account ID:</p>
+<ul>
+<li>your friend code (anyone who has it can send you a request);</li>
+<li>your profile, which only the friends you have accepted can see: your nickname, the species and stage of your main pet, your English level, your streak, your lessons this week, your number of achievements and when it was updated;</li>
+<li>friend requests, with your nickname and pet (seen by whoever receives them);</li>
+<li>your friends list;</li>
+<li>the encouragements you send: one of 6 fixed messages from the app, with its date.</li>
+</ul>
+<p>There is no free text and no names. Your endless mode scores are already public on the leaderboard (point 4). The legal basis is that you ask for it by using “Friends” (performance of the service). Leaving the leaderboard or “Delete my backup” deletes your code, your profile, your requests, your friendships (on both lists) and your encouragements. If you sign out of Google, your friends stay with that account, like the leaderboard.</p>
+<h2>6. Microphone</h2>
 <p>It is only used while you press the microphone button in the speaking exercises. Your phone's system (Google or Apple) recognises your speech, on the phone itself whenever possible. Englimals never stores or sends your voice.</p>
 
-<h2>6. Reminders</h2>
+<h2>7. Reminders</h2>
 <p>Your pets' reminders are scheduled by the phone itself. We don't send anything to any server for them. You can turn them off in Settings.</p>
 
-<h2>7. Ads and purchases</h2>
+<h2>8. Ads and purchases</h2>
 <p>The app has no ads or purchases right now. If they are added, Google AdMob and your phone's store will handle them; we will update this policy first and ask for your consent when the law requires it.</p>
 
-<h2>8. What we don't do</h2>
+<h2>9. What we don't do</h2>
 <p>We don't sell your data, share it with anyone for advertising, or use it for anything other than making the app work.</p>
 
-<h2>9. Children</h2>
+<h2>10. Children</h2>
 <p>Englimals is not meant for children under 13. If we learn that a child under that age has given us data, we will delete it.</p>
 
-<h2>10. Your rights</h2>
+<h2>11. Your rights</h2>
 <p>You can ask us to access, correct, delete, restrict or object to the use of your data, and to receive a copy of it, by writing to {correo}. We will reply within one month. If you disagree with our answer, you can complain to the Spanish Data Protection Agency (<a href="https://www.aepd.es">www.aepd.es</a>) or your local authority.</p>
 
-<h2>11. Changes</h2>
+<h2>12. Changes</h2>
 <p>If we change this policy, we will update the date above and, if the change is important, let you know in the app.</p>
 </div>""",
     idioma="en",
@@ -323,10 +344,11 @@ pagina(
 </ol>
 <p>Your cloud backup and your Englimals cloud account are deleted. The game on your phone is not touched.</p>
 <p>For the leaderboard: in Settings, “Leaderboard”, tap “Leave the leaderboard” and confirm. Your positions in all levels are deleted and, if you didn't sign in with Google, the anonymous account too. If you signed in with Google, that account's positions are deleted: do it while signed in (if you signed out, sign in with it again) or use “Delete my backup”, which also deletes them.</p>
+<p>For friends: leaving the leaderboard or “Delete my backup” also deletes your friend code, your profile, your requests, your friendships (on both lists) and your encouragements.</p>
 <h2>Without the app</h2>
 <p>Write to {correo} from the email of the Google account you signed in with, with the subject “Delete my Englimals account”. We will delete it within 30 days and let you know.</p>
 <h2>What is deleted</h2>
-<p>Your game backup, its summary, your account ID and your email. We keep nothing afterwards. If you were on the leaderboard, also your positions, your nickname and your pet's species.</p>
+<p>Your game backup, its summary, your account ID and your email. We keep nothing afterwards. If you were on the leaderboard, also your positions, your nickname and your pet's species. If you had friends, also your code, your profile, your requests, your friendships and your encouragements.</p>
 <h2>Data on your phone</h2>
 <p>It is deleted when you uninstall the app.</p>
 </div>""",
